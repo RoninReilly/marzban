@@ -6,7 +6,7 @@ sudo ufw disable
 
 # Update and upgrade packages
 echo "Updating and upgrading packages..."
-sudo apt-get update && sudo apt-get upgrade -y
+# sudo apt-get update && sudo apt-get upgrade -y
 
 # Install socat, curl, and git
 echo "Installing socat, curl, and git..."
@@ -57,4 +57,4 @@ sed -i '/SSL_CLIENT_CERT_FILE/s/^# //' docker-compose.yml
 
 # Start Docker Compose
 echo "Starting Docker Compose..."
-sudo docker-compose up -d
+sudo docker compose up -d
