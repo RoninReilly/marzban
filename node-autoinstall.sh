@@ -18,7 +18,7 @@ git clone https://github.com/Gozargah/Marzban-node && cd Marzban-node
 
 # Install Docker
 echo "Installing Docker..."
-curl -fsSL https://get.docker.com | sh
+# curl -fsSL https://get.docker.com | sh
 
 # Create directory for Marzban-node and add the SSL client certificate
 echo "Creating directory for Marzban-node and adding SSL client certificate..."
